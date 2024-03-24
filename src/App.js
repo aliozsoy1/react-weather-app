@@ -23,7 +23,7 @@ function App() {
   console.log(search);
   return (
     <div className="App">
-      <input onChange={(e) => setSearch(e.target.value)} type="text" placeholder="Ülke veya Şehir Girin...." class="w-[250px] my-5 px-2 py-1 placeholder-slate-300 text-slate-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring"/>
+      <input onChange={(e) => setSearch(e.target.value)} type="text" placeholder="Ülke veya Şehir Girin....." class="w-[250px] my-5 px-2 py-1 placeholder-slate-300 text-slate-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring"/>
       <City city={city}/>
     </div>
   );
